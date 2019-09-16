@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>NYT</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -22,7 +22,7 @@
 <body>
     <div class= "container">
 
-    <div class="jumbotron jumbotron-fluid text-center bg-primary text-white">
+    <div class="jumbotron jumbotron-fluid text-center bg-primary text-white font-weight-bolder">
         <div class="container">
             <h1 class="display-4">📰 New York Times Search</h1>
         </div>
@@ -41,7 +41,11 @@
         </div>
         <div class="form-group">
             <label for="formGroupExampleInput2">Number of Records to Retrieve</label>
-            <input type="text" class="form-control" id="receiveRecords">
+            <select id= retrieveRecords class="form-control form-control-sm">
+                <option></option>
+            </select>
+            
+            <!-- <input type="text" class="form-control" id="receiveRecords"> -->
         </div>
         <div class="form-group">
             <label for="formGroupExampleInput2">Start Year (Optional)</label>
